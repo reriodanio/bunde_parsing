@@ -57,3 +57,4 @@ with open('persons_url_list.txt') as file:
 
         with open('data.json', 'w') as json_file:
             json.dump(data_dict, json_file, indent=4)
+            
