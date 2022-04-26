@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import json
 
 # persons_url_list = []
-#
+
 # for i in range(0, 740, 20):
 #     url = f'https://www.bundestag.de/ajax/filterlist/en/members/863330-863330?limit=20&noFilterSet=true&offset={i}'
 #     print(url)
@@ -57,4 +57,3 @@ with open('persons_url_list.txt') as file:
 
         with open('data.json', 'w') as json_file:
             json.dump(data_dict, json_file, indent=4)
-            
